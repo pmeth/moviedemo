@@ -36,6 +36,6 @@ while($row = $res->fetch_assoc()) {
 }
 ?>
 <div class="clearfix"></div>
-</div class="container">
+</div>
 </body>
 </html>

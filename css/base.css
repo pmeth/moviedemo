@@ -72,3 +72,22 @@ a.listitem .date-added {
   clear: both;
   float: none;
 }
+
+#add_movie label {
+   float: left;
+   width: 100px;
+   margin-right: 5px;
+   text-align: right;
+}
+
+#add_movie #name {
+   width: 300px;
+}
+
+#add_movie #year {
+   width: 80px;
+}
+
+#add_movie #thumb, #add_movie #image {
+   width: 600px;
+}
