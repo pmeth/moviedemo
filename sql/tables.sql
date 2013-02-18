@@ -8,7 +8,6 @@ CREATE TABLE `movies` (
   `id` int(11) NOT NULL,
   `title` varchar(255) DEFAULT NULL,
   `year` int(4) DEFAULT NULL,
-  `thumb` varchar(255) DEFAULT NULL,
   `image` varchar(255) DEFAULT NULL,
   `rating` int(11) DEFAULT NULL,
   `date_added` date DEFAULT NULL,
