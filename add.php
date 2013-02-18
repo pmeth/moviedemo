@@ -1,22 +1,15 @@
-<html>
-   <head>
-      <title></title>
-      <link type="text/css" rel="stylesheet" href="css/base.css">
-   </head>
-   <body>
-      <div id="container">
-         <h2>My great movie list</h2>
-         <a class='addnew' href='index.php'>Return</a>
+<?php
+require 'includes/bootstrap.php';
+require 'includes/header.php';
+?>
+<a class='addnew' href='index.php'>Return</a>
          <div class="clearfix"></div>
          <form action="add_handler.php" method="post" id="add_movie">
             <div class="field">
-               <label for="name">Name</label><input name="name" id="name">
+               <label for="title">Title</label><input name="title" id="title">
             </div>
             <div class="field">
                <label for="year">Year</label><input name="year" id="year">
-            </div>
-            <div class="field">
-               <label for="thumb">Thumb</label><input name="thumb" id="thumb">
             </div>
             <div class="field">
                <label for="image">Image</label><input name="image" id="image">
@@ -35,7 +28,5 @@
             </div>
 
          </form>
-         <div class="clearfix"></div>
-      </div>
-   </body>
-</html>
+<?php
+require 'includes/footer.php';

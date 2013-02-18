@@ -2,6 +2,7 @@ body {
   margin: 5px;
   font-family: arial, helvetica, sans;
   background-color: #472323;
+  text-align: center;
 }
 
 #container {
@@ -9,6 +10,7 @@ body {
   width: 960px;
   margin: auto;
   background-color: #F3F3F3;
+  text-align: left;
 }
 
 h2 {
@@ -22,6 +24,7 @@ h2 {
 a.addnew {
   font-weight: bold;
   text-decoration: none;
+  color: blue;
 }
 
 a.addnew:hover {
@@ -36,7 +39,7 @@ a.listitem {
   display: block;
   padding: 5px;
   text-decoration: none;
-  color: inherit;
+  color: black;
 }
 
 a.listitem:hover {
@@ -52,6 +55,7 @@ a.listitem .rating {
 a.listitem img {
   float: left;
   margin-right: 10px;
+  border: 0;
 }
 
 a.listitem .title {
@@ -80,7 +84,7 @@ a.listitem .date-added {
    text-align: right;
 }
 
-#add_movie #name {
+#add_movie #title {
    width: 300px;
 }
 
@@ -88,6 +92,43 @@ a.listitem .date-added {
    width: 80px;
 }
 
-#add_movie #thumb, #add_movie #image {
+#add_movie #image {
    width: 600px;
+}
+
+.detail .rating {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: #CA1C9A;
+}
+
+.detail img {
+  float: left;
+  margin-right: 20px;
+}
+
+.detail .title {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.detail span.year {
+  font-weight: normal;
+  font-style: italic;
+}
+
+.detail .date-added {
+  font-size: 0.8em;
+  font-style: italic;
+}
+.message {
+   text-align: center;
+}
+
+.message span {
+   background-color: #C0E7C0;
+   padding: 5px;
+   color: green;
+   font-weight: bold;
+   border: 1px solid green;
 }
