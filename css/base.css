@@ -21,13 +21,17 @@ h2 {
   margin-bottom: 20px;
 }
 
-a.addnew {
+.navigation {
+	margin-bottom: 10px;
+}
+
+.navigation a {
   font-weight: bold;
   text-decoration: none;
   color: blue;
 }
 
-a.addnew:hover {
+.navigation a:hover {
   color: red;
   text-decoration: underline;
 }
@@ -40,20 +44,28 @@ a.listitem {
   padding: 5px;
   text-decoration: none;
   color: black;
-  background-color: #f3f3f3;
+	border: 1px solid #DFDFDF;
+	background-color: #F3F3F3;
   margin: 2px;
-  border: 1px solid rgb(223, 223, 223);
 }
 
 a.listitem:hover {
   background-color: #FFFFCC;
 }
 
-a.listitem .rating {
+.rating {
   margin-top: 20px;
   font-size: 1.5em;
+}
+
+.starson {
   color: #CA1C9A;
 }
+
+.starsoff {
+  color: #D3B1CA;
+}
+
 
 a.listitem img {
   float: left;
@@ -99,10 +111,10 @@ a.listitem .date-added {
    width: 600px;
 }
 
-.detail .rating {
-  margin-top: 20px;
-  font-size: 1.5em;
-  color: #CA1C9A;
+.detail {
+	padding: 10px;
+	border: 1px solid #DFDFDF;
+	background-color: #F3F3F3;
 }
 
 .detail img {
@@ -135,3 +147,4 @@ a.listitem .date-added {
    font-weight: bold;
    border: 1px solid green;
 }
+

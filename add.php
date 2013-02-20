@@ -2,8 +2,9 @@
 require 'includes/bootstrap.php';
 require 'includes/header.php';
 ?>
-<a class='addnew' href='index.php'>Return</a>
-         <div class="clearfix"></div>
+<div class="navigation">
+	<a class='addnew' href='index.php'>Return</a>
+</div>
          <form action="add_handler.php" method="post" id="add_movie">
             <div class="field">
                <label for="title">Title</label><input name="title" id="title">

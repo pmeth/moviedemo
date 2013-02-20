@@ -2,8 +2,9 @@
 require 'includes/bootstrap.php';
 require 'includes/header.php';
 ?>
-<a class='addnew' href='detail.php?id=<?php echo $_GET['id']; ?>'>Return</a>
-<div class="clearfix"></div>
+<div class="navigation">
+	<a class='addnew' href='detail.php?id=<?php echo $_GET['id']; ?>'>Return</a>
+</div>
 <?php
 $id = (int) $_GET['id'];
 $res = $db->query('SELECT * FROM movies WHERE id = ' . $id);
