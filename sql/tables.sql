@@ -5,7 +5,7 @@ USE `moviedemo`;
 DROP TABLE IF EXISTS `movies`;
 
 CREATE TABLE `movies` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(255) DEFAULT NULL,
   `year` int(4) DEFAULT NULL,
   `image` varchar(255) DEFAULT NULL,
